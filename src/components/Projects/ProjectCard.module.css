@@ -1,0 +1,77 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+  background: white;
+  box-shadow: 0 16px 14px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+  padding: 18px 24px;
+  width: 300px; /* Fixed width */
+  height: 400px; /* Fixed height */
+  box-sizing: border-box;
+  overflow: hidden; /* Ensures content doesn't overflow */
+}
+
+.image {
+  border-radius: 8px;
+  height: 180px; /* Fixed height for images */
+  width: 100%;
+  object-fit: cover; /* Ensures images cover the entire area without distortion */
+  margin-bottom: 16px;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--color-secondary); /* Darker blue for titles */
+  text-align: center;
+}
+
+.description {
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--color-dark); /* Dark gray for text */
+  text-align: center;
+  margin-bottom: auto; /* Pushes the description to the top if content overflows */
+  overflow: hidden;
+  text-overflow: ellipsis; /* Truncate long text with ellipsis */
+  max-height: 40px; /* Prevents description from taking up too much space */
+}
+
+.skills {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 6px;
+  list-style: none;
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.skill {
+  font-size: 12px;
+  font-weight: 400;
+  border-radius: 100px;
+  background: var(--color-primary); /* Soft blue background */
+  padding: 4px 12px;
+  color: var(--color-text); /* White text */
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: auto; /* Pushes the links to the bottom */
+}
+
+.link {
+  text-decoration: none;
+  color: var(--color-text); /* White text */
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 50px;
+  background: var(--color-primary); /* Soft blue background */
+  padding: 8px 16px;
+}

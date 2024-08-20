@@ -1,0 +1,57 @@
+[
+  {
+    "title": "Site Immobilier",
+    "imageSrc": "projects/estate.png",
+  
+    "skills": ["React", "Node", "Mongo" , "SCSS", "Express", "SocketIO"],
+
+    "source": "https://github.com/syrinebenameur1/MERN-stack-Site-Immobilier"
+  },
+  {
+    "title": "Booking CLONE",
+    "imageSrc": "projects/booking.png",
+  
+    "skills": ["React", "Express", "Node", "Mongo"],
+
+    "source": "https://github.com/syrinebenameur1/Booking-javascript-"
+  },
+  {
+    "title": "E-commerce  website",
+    "imageSrc": "projects/ecommerce.png",
+  
+    "skills": ["React", "Express", "Node", "Mongo"],
+
+    "source": "https://github.com/syrinebenameur1/E-commerce-frontend-react"
+  },
+  {
+    "title": "Blog",
+    "imageSrc": "projects/blog.png",
+  
+    "skills": ["React", "Responsive" , "Front End"],
+
+    "source": "https://github.com/syrinebenameur1/ReactBlog"
+  },
+  {
+    "title": "Showcase Website",
+    "imageSrc": "projects/saida.png",
+  
+    "skills": ["HTML", "CSS" , "Bootstrap"],
+
+    "source": "https://github.com/syrinebenameur1/saida-bootstrap"
+  },
+  {
+    "title": "Starbucks Custom Website",
+    "imageSrc": "projects/starbucks.png",
+  
+    "skills": ["HTML", "CSS", "Javascript"],
+    "source": "https://github.com/syrinebenameur1/Starbucks-Custom-website"
+  },
+  {
+    "title": "Voice control system",
+    "imageSrc": "projects/project.png",
+  
+    "skills": ["Raspberry Pi", "Edge Impulse", "AI"],
+    "source": "",
+    "videoSrc": "/react-portfolio/assets/projects/ai.mp4"
+  }
+]
